@@ -35,7 +35,3 @@ Best model (tuned GBT / RF) lands around **AUC 0.88** and ~89% accuracy on the h
 - Schema is declared explicitly rather than inferred, mostly out of habit from working with larger files.
 - The Hive part is simulated through Spark's built-in catalog since Colab doesn't give you a real HDFS cluster, but the SQL is the same as on a real one.
 - The streaming source is a watch-folder of CSVs instead of Kafka, again because of Colab. Swapping it for Kafka is a one-line change.
-
-## Credits
-
-Dataset: S. Moro, P. Cortez, P. Rita. *A Data-Driven Approach to Predict the Success of Bank Telemarketing.* Decision Support Systems, 62:22-31, 2014.
