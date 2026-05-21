@@ -2,7 +2,7 @@
 
 A small project I built to learn how the Hadoop / Spark stack handles a real-world banking dataset end to end.
 
-The notebook walks through five things on the Portuguese bank marketing dataset (`bank.csv`, about 4.5k rows):
+The notebook walks through five things on the bank marketing dataset (`bank.csv`, about 4.5k rows):
 
 1. Loading the data into a Hive-style partitioned Parquet warehouse.
 2. Some EDA with Spark SQL and the DataFrame API.
